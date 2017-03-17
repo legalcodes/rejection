@@ -1,10 +1,2 @@
-var test = require('tape');
+import '../client/components/reducer.test';
 
-console.log('hello world');
-
-test('A passing test', (assert) => {
-
-  assert.pass('This test will pass.');
-
-  assert.end();
-});
