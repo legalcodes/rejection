@@ -1,2 +1,2 @@
-import '../client/components/reducer.test';
+import '../src/pages/reducer.test';
 
