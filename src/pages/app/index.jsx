@@ -1,6 +1,6 @@
 import React from 'react';
-import Entry from './Entry.jsx';
-import Tally from './Tally.jsx';
+import Entry from './components/Entry.jsx';
+import Tally from './components/Tally.jsx';
 
 export default class App extends React.Component {
   render() {

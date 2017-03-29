@@ -1,2 +1,2 @@
-import '../src/pages/reducer.test';
+import '../src/pages/app/reducer.test';
 
