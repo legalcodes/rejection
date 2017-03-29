@@ -1,10 +1,10 @@
 import cuid from 'cuid';
-const SET_USERNAME = "REJECTION/SET_USERNAME";
-const ADD_ASK = "REJECTION/ADD_ASK";
+const SET_USERNAME = 'REJECTION/SET_USERNAME';
+const ADD_ASK = 'REJECTION/ADD_ASK';
 
 const defaultState = {
   user: {
-    username: "Anon"
+    username: 'Anon'
   },
   questions: []
 };
@@ -30,9 +30,9 @@ export const setUsername = (username) => ({
 
 export const addAsk = ({
   id = cuid(),
-  askee = "Anon",
-  question = "No question",
-  answer = "Unanswered"
+  askee = 'Anon',
+  question = 'No question',
+  answer = 'Unanswered'
 }) => ({
   type: ADD_ASK,
   payload: {
